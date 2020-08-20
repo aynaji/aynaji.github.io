@@ -11,8 +11,7 @@
       <nav>
          <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-            <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Projects</a>
-            
+            <a class="nav-link" id="nav-project-tab" data-toggle="tab" href="#nav-project" role="tab" aria-controls="nav-project" aria-selected="false">projects</a>
          </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
@@ -22,36 +21,37 @@
             <h1 class="display-3" style="color: white;">Ammar Naji</h1>
             <p class="mb-0">
                I'm a student, developer, designer, and a leader 
-               <cite title="Source Title">
-                  <br>
+            </p>
+            <br>
             <div class="container">
-            <!-- Social buttons -->
-            <ul class="list-unstyled list-inline text-center">
-            <li class="list-inline-item">
-            <a href="https://github.com/aynaji" class="ex1">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="mailto:aynaji@outlook.com" class="ex1">
-            <i class="fa fa-envelope"> </i>
-            </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="mailto:deulux0@gmail.com" class="ex1"><i class="fa fa-google" > </i> </a>
-            </li>
-            <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/ammar-naji/" class="ex1"
-               ><i class="fa fa-linkedin"> </i>
-            </a>
-            </li>
-            </ul>
-            <!-- Social buttons -->
-            </div><a class="btn btn-primary btn-lg" href="resume/AMMAR_NAJI.pdf" role="button">Request Resume</a>
+               <!-- Social buttons -->
+               <ul class="list-unstyled list-inline text-center">
+                  <li class="list-inline-item">
+                     <a href="https://github.com/aynaji" class="ex1">
+                     <i class="fa fa-github" aria-hidden="true"></i>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="mailto:aynaji@outlook.com" class="ex1">
+                     <i class="fa fa-envelope"> </i>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="mailto:deulux0@gmail.com" class="ex1"><i class="fa fa-google" > </i> </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a href="https://www.linkedin.com/in/ammar-naji/" class="ex1"
+                        ><i class="fa fa-linkedin"> </i>
+                     </a>
+                  </li>
+               </ul>
+               <!-- Social buttons -->
+            </div>
+            <a class="btn btn-primary btn-lg" href="resume/AMMAR_NAJI.pdf" role="button">Request Resume</a>
             </cite></footer>
          </blockquote>
       </div>
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="tab-pane fade" id="nav-project" role="tabpanel" aria-labelledby="nav-project-tab">
          <div class="list-group">
             <a href="https://github.com/aynaji/booklibraryapi" class="list-group-item list-group-item-action"  >
                <div class="d-flex w-100 justify-content-between">
@@ -59,9 +59,11 @@
                </div>
                <p class="mb-1">Consume API A Spring Boot project that consumes a provided API by using Web
                   Client from Spring Web Flux.
-                  <br>• Calling REST services with Web Client
-                  <br>• Constructor dependency Injections and service layer that holds business logic
-                  <br>• Includes multiple Controllers and Services to access endpoints
+               <ul>
+                  <li>Uses hibernate ORM technique to persist object into database</li>
+                  <li>Includes Authorization and authentication from Spring Boot Security</li>
+                  <li>Uses MVC architecture pattern with service layer</li>
+               </ul>
                </p>
             </a>
             <a href="https://github.com/aynaji/NbaApi" class="list-group-item list-group-item-action" >
@@ -70,21 +72,24 @@
                </div>
                <p class="mb-1">Consume API A Spring Boot project that consumes a provided API by using Web
                   Client from Spring Web Flux.
-                  <br>• Calling REST services with Web Client
-                  <br>• Constructor dependency Injections and service layer that holds business logic
-                  <br>• Includes multiple Controllers and Services to access endpoints
+               <ul>
+                  <li>Calling REST services with Web Client</li>
+                  <li>Constructor dependency Injections and service layer that holds business logic</li>
+                  <li>Includes multiple Controllers and Services to access endpoints</li>
+               </ul>
                </p>
             </a>
             <a href="https://github.com/aynaji/Telephone-Billing-System" class="list-group-item list-group-item-action">
                <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">C#.Net | Web Application </h5>
                </div>
-               <p class="mb-1">An ASP.Net Project mimics an online billing system that employees can use to
+               <p class="mb-1">An ASP.Net project mimics an online billing system that employees can use to
                   add, retrieve or edit customers through the web page.
-                  <br>• Authenticate and authorize user employee based on login credentials
-                  <br>• Employee can add customer through the add customer page and customize
-                  plans
-                  <br>• Search customers based on input query and retrieve information
+               <ul>
+                  <li>Authenticate and authorize user employee based on login credentials</li>
+                  <li>Employee can add customer through the add customer page and customize phone plans</li>
+                  <li>Search customers based on input query and retrieve information</li>
+               </ul>
                </p>
             </a>
             <a href="https://github.com/aynaji/worldapi" class="list-group-item list-group-item-action">
@@ -93,9 +98,11 @@
                </div>
                <p class="mb-1">An angular web application project that HTTP protocols with added Bootstrap and
                   Js.
-                  <br>• Connects to REST API’s using HTTP modules
-                  <br>• Uses Observable techniques and operators
-                  <br>• Include HTML / Bootstrap CSS and Bootstrap
+               <ul>
+                  <li>Connects to REST API’s using HTTP modules</li>
+                  <li>Uses Observable techniques and operators</li>
+                  <li>Include HTML / Bootstrap CSS and Bootstrap</li>
+               </ul>
                </p>
             </a>
             <a href="https://najiam.dev.fast.sheridanc.on.ca/SYST24444/AmmarNaji-A2/" class="list-group-item list-group-item-action">
@@ -142,97 +149,6 @@
             </a>
          </div>
       </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-         <div class="list-group">
-            <a href="https://github.com/aynaji/booklibraryapi" class="list-group-item list-group-item-action"  >
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Java | Spring Boot application with form security</h5>
-               </div>
-               <p class="mb-1">Consume API A Spring Boot project that consumes a provided API by using Web
-                  Client from Spring Web Flux.
-                  <br>• Calling REST services with Web Client
-                  <br>• Constructor dependency Injections and service layer that holds business logic
-                  <br>• Includes multiple Controllers and Services to access endpoints
-               </p>
-            </a>
-            <a href="https://github.com/aynaji/NbaApi" class="list-group-item list-group-item-action" >
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Java | Spring Boot consume web application</h5>
-               </div>
-               <p class="mb-1">Consume API A Spring Boot project that consumes a provided API by using Web
-                  Client from Spring Web Flux.
-                  <br>• Calling REST services with Web Client
-                  <br>• Constructor dependency Injections and service layer that holds business logic
-                  <br>• Includes multiple Controllers and Services to access endpoints
-               </p>
-            </a>
-            <a href="https://github.com/aynaji/Telephone-Billing-System" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">C#.Net | Web Application </h5>
-               </div>
-               <p class="mb-1">An ASP.Net Project mimics an online billing system that employees can use to
-                  add, retrieve or edit customers through the web page.
-                  <br>• Authenticate and authorize user employee based on login credentials
-                  <br>• Employee can add customer through the add customer page and customize
-                  plans
-                  <br>• Search customers based on input query and retrieve information
-               </p>
-            </a>
-            <a href="https://github.com/aynaji/worldapi" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Angular | Single Page Web Application</h5>
-               </div>
-               <p class="mb-1">An angular web application project that HTTP protocols with added Bootstrap and
-                  Js.
-                  <br>• Connects to REST API’s using HTTP modules
-                  <br>• Uses Observable techniques and operators
-                  <br>• Include HTML / Bootstrap CSS and Bootstrap
-               </p>
-            </a>
-            <a href="https://najiam.dev.fast.sheridanc.on.ca/SYST24444/AmmarNaji-A2/" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Html & jQuery</h5>
-               </div>
-               <p class="mb-1">Web page that consumed Json and displays different types of plants.
-               </p>
-            </a>
-            <a href="https://najiam.dev.fast.sheridanc.on.ca/SYST24444/A3/" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Angular web page</h5>
-               </div>
-               <p class="mb-1">Web Page that shows information of five very famous painters.
-               </p>
-            </a>
-            <a href="https://najiam.dev.fast.sheridanc.on.ca/SYST24444/A4/" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Angular Web Page</h5>
-               </div>
-               <p class="mb-1">Angular web page with simple interface.
-               </p>
-            </a>
-            <a href="https://najiam.dev.fast.sheridanc.on.ca/najiam/A1/" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">PHP & HTML</h5>
-               </div>
-               <p class="mb-1">PHP webpage that calculates Tim's order.
-               </p>
-            </a>
-            <a href="https://najiam.dev.fast.sheridanc.on.ca/najiam/AA1/" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Vacation Company</h5>
-               </div>
-               <p class="mb-1">Travel vacation company that displays list of vacations available.
-               </p>
-            </a>
-            <a href="https://najiam.dev.fast.sheridanc.on.ca/SYST24444/Exercise1_AmmarNaji/" class="list-group-item list-group-item-action">
-               <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">JavaScript Controls</h5>
-               </div>
-               <p class="mb-1">Very simple webpage that shows Javascript DOM.
-               </p>
-            </a>
-         </div>
-      </div>  
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
